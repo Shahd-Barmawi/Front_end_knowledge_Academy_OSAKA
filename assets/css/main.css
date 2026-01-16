@@ -5,7 +5,7 @@
     --mainFont: 'Open Sans', sans-serif;
 }
 
-.text__primary{
+.text__primary {
     color: var(--primaryColor);
 }
 
@@ -32,7 +32,25 @@ body {
     color: var(--primaryColor);
 }
 
-.about {
+.about,
+.portfolio {
     background-image: url(./../images/About/bg.jpg);
     /* background-size: cover; */
+}
+
+.portfolio .nav-tabs .nav-item.show .nav-link,
+.portfolio .nav-tabs .nav-link.active {
+    color: var(--primaryColor);
+}
+
+.portfolio .nav-link {
+    color: black;
+}
+
+.portfolio .nav-tabs .nav-link {
+    border: none;
+}
+
+.portfolio .nav-tabs {
+    border-bottom: none;
 }
